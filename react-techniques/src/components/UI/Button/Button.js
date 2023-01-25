@@ -3,8 +3,7 @@ import React from 'react';
 import classes from './Button.module.css';
 
 const Button = (props) => {
-  console.log('버튼 재평가');
-
+  console.log('Button RUNNING');
   return (
     <button
       type={props.type || 'button'}
